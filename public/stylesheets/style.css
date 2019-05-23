@@ -1,0 +1,53 @@
+.run {
+  float: left;
+  position: absolute;
+  max-width: 200px;
+  max-height: 200px;
+  width:200px;
+
+  left: 5%;
+  top: 5%;
+
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+
+  -webkit-animation: floatBubble 3.1s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: floatBubble 3.1s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: floatBubble 3.1s linear infinite, sideWays 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes floatBubble {
+  0% {
+      top:500px;
+  }
+  100% {
+      top: -251px;
+  }
+}
+@keyframes floatBubble {
+  0% {
+      top:500px;
+  }
+  100% {
+      top: -251px;
+  }
+}
+
+@-webkit-keyframes sideWays { 
+  0% { 
+      margin-left:0px;
+  }
+  100% { 
+      margin-left:50px;
+  }
+}
+
+@keyframes sideWays { 
+  0% { 
+      margin-left:0px;
+  }
+  100% { 
+      margin-left:50px;
+  }
+}

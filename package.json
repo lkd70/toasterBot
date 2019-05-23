@@ -1,0 +1,24 @@
+{
+  "name": "toasterbot",
+  "version": "1.0.0",
+  "description": "A bot for Dlive",
+  "main": "bin/www",
+  "scripts": {
+    "test": "nodemon bin/www"
+  },
+  "keywords": [
+    "Dlive",
+    "LethalToast",
+    "LKD70"
+  ],
+  "author": "LKD70",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "dlivetv-api": "^2.0.5",
+    "express": "^4.17.0",
+    "pug": "^2.0.3"
+  }
+}
